@@ -1,0 +1,19 @@
+{
+  "name": "selfbot",
+  "version": "1.0.0",
+  "description": "This is an selfbot app made for testing discords api",
+  "main": "bot.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node bot.js",
+    "bot": "nodemon ./src/bot.js",
+    "bot2": "nodemon ./src/bot_copy.js"
+  },
+  "author": "Nimit2801",
+  "license": "GPL-3.0-or-later",
+  "dependencies": {
+    "discord.js": "^11.5.1",
+    "dotenv": "^8.2.0",
+    "expree": "^0.0.7"
+  }
+}
